@@ -32,18 +32,16 @@ int Numeronaturales(int n)
 
 int main(int argc, char *argv[])
 {
-    int exp, numero;
+    int exp, numero,n1;
     std::cout << "ingrese el valor del numero" << '\n';
     std::cin >> numero;
     std::cout << "Ingrese el valor del exponente a que quiere elevar el numero" << '\n';
     std::cin >> exp;
     std::cout << "El valor final es:";
     std::cout << PotenciaNumero(exp, numero);
-
-    int numero = 9;
     std::cout << "Ingresa un numero: ";
-    std::cin >> numero;
-    std::cout << Numeronaturales(numero) << std::endl;
+    std::cin >> n1;
+    std::cout << Numeronaturales(n1) << std::endl;
 
     return 0;
 }
